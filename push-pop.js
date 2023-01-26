@@ -2,7 +2,11 @@
 var numbers = [23, 35, 45, 34, 29];
 console.log(numbers);
 
+
 numbers.push(37);
+console.log(numbers);
+
+numbers.unshift(20); //add to first element
 console.log(numbers);
 
 
@@ -16,4 +20,7 @@ console.log(friendsName);
 
 var element = friendsName.pop();
 console.log(element);
+console.log(friendsName);
+
+friendsName.shift();
 console.log(friendsName);
